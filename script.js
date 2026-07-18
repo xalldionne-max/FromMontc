@@ -22,8 +22,8 @@ openBtn.addEventListener("click", () => {
         const icons = [
             "💌",
             "🫧",
-            "🤍",
-            "♡"
+            "🐥",
+            "🪷"
         ];
 
         item.innerHTML =
@@ -144,7 +144,7 @@ function createHeart() {
 
     heart.classList.add("heart");
 
-    const icons = ["🫧", "♡", "💌"];
+    const icons = ["🫧", "🪷", "🐥"];
 
     heart.innerHTML =
         icons[Math.floor(Math.random() * icons.length)];
